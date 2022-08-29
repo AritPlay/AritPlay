@@ -30,4 +30,5 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     - name: Install Dependencies
-  run: npm install
+  run: npm install const mineflayer = require("mineflayer");
+const bot = mineflayer.createBot({host: 'localhost', port: 53298, username: 'Survivor'})
